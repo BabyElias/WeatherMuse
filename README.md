@@ -1,6 +1,11 @@
 # WeatherMuse
-_The Only Weather App You Need_
+
+_A Weather Application that simplifies the way you view weather_
 ![image](https://user-images.githubusercontent.com/95405559/223127033-1625d138-cfbd-47bd-840d-11fc834ae601.png)
+
+## Table of Content:
+1. [Features](#features-)
+2. 
 
 ## Features :
 - Search the name of the city whose weather you want to know.
@@ -8,6 +13,12 @@ _The Only Weather App You Need_
 - Available in 4 different languages
 - Available in both light and dark mode.
 - Can show temperatures in both Celsius and Fahrenheit Units
+
+## Motivation Behind the Project :
+<I>Pressure, Dew Point, UV Index, Moon Phase.....Do we need to know all this when checking the weather conditions of our area? Do these affect the life of common people like us? No, right! Then why should we overcomplicate our weather applications , making them difficult for people to navigate and acquire the essential information.</I> <br><br>
+WeatherMuse aims at changing this situation by providing with a minimalistic and user-friendly way for people to access real-time weather information for any location in the world. Its purpose is to provide a convenient alternative to other weather apps that may be cluttered or difficult to navigate.
+
+
 
 ## Local Setup :
 - Fork the repository.
@@ -24,7 +35,7 @@ cd WeatherMuse
 ```markdown
 npm install
 ```
-- Get Your own API Key from <a href= "https://openweathermap.org/">OpenWeather</a>.
+- Get Your own API Key from <a href= "https://openweathermap.org/">OpenWeather</a>.<br><br>
 - Create .env file in the WeatherMuse folder and paste your API Key as shown in the image
 ![image](https://user-images.githubusercontent.com/95405559/223360856-811c70c9-57b5-468d-9b40-7b1b311e9bea.png)
 - Run the React Project
@@ -34,7 +45,9 @@ npm start
 ```
 - The project is now running on LocalHost:3000. Well Done!!<br>
 
-> If you have any suggestions for the project, feel free to raise an issue and let me know. Will be more than happy to improve on the project.
+## Contributions :
+
+Contributions are always welcome! If you find a bug or want to add a feature, feel free to create an issue or submit a pull request.
 
 
 
