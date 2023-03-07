@@ -5,7 +5,9 @@ _A Weather Application that simplifies the way you view weather_
 
 ## Table of Content:
 1. [Features](#features-)
-2. 
+2. [Motivation](#motivation-behind-the-project-)
+3. [Local Setup](#local-setup-)
+4. [Contributions](#contributions-)
 
 ## Features :
 - Search the name of the city whose weather you want to know.
