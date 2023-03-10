@@ -201,7 +201,7 @@ body {
   box-shadow: var(--profileShadow);
   display: flex;
   flex-direction: column;
-  gap: 16rem;
+  gap: 12rem;
 }
 
 .info-container {
@@ -419,7 +419,7 @@ body {
   }
   .search-bar > input {
     padding: 7%;
-    font-size: 1.25rem;
+    
   }
   .s-icon {
     padding: 8px;

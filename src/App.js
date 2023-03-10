@@ -146,9 +146,7 @@ function App() {
           }}
         >
           <div className="name">
-            <div className="logo">
-              Weather App<hr></hr>
-            </div>
+            
             <div className="toggle-container">
               <input
                 type="checkbox"
