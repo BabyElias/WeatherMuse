@@ -6,7 +6,7 @@
   background-color: var(--cardColor);
   box-shadow: var(--profileShadow);
   border-radius: 1rem;
-  margin: 1rem;
+  
   margin-bottom: 1rem;
 }
 .details:hover {
