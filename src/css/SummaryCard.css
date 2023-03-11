@@ -40,11 +40,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .summary-items > div {
-    height: auto;
-    padding: 0.5rem;
-  }
+  
   .summary > li:nth-child(odd) {
     border-left: none;
   }
+}
+@media only screen and (max-width: 700px){
+  .summary-items > div > p:nth-of-type(2) img {
+    width: 20%;
+  }
+  
+
 }

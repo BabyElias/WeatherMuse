@@ -86,8 +86,9 @@ function BackgroundImage(data) {
         return 'https://i.gifer.com/fyCe.gif'; // cloudy day
     }
   }
-
+  
   return getImageUrl(Number(id));
+  
 }
 
 export default BackgroundImage;

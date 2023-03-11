@@ -75,7 +75,7 @@ function App() {
       typeof location === "string"
         ? `q=${location}`
         : `lat=${location[0]}&lon=${location[1]}`;
-
+        
     const url = "https://api.openweathermap.org/data/2.5/forecast?";
     axios.post(`${url}${how_to_search}&appid=${API_KEY}&units=metric&cnt=5&exclude=hourly,minutely`)
     .then((response)=>{
@@ -103,7 +103,7 @@ function App() {
 
     // load current location weather info on load
   window.addEventListener("load", function() {
-    navigator.geolocation.getCurrentPosition(myIP)
+    navigator.geolocation.getCurrentPosition(myIP) //The Geolocation.getCurrentPosition() method is used to get the current position of the device.
   })
 
   const checkMode = () => {
@@ -114,7 +114,9 @@ function App() {
     }
   }
 
+
   return (
+    
     <div className="container" onLoad={checkMode}>
       <div
         className="blur"

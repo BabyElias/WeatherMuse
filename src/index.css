@@ -188,16 +188,15 @@ body {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 49% 49%;
-  padding: 3% 10%;
-  border-radius: 1rem;
+  grid-template-columns: 50% 50%;
+  
+  
 }
 .form-container {
   background-size: cover;
   z-index: 100;
-  border-radius: 1rem;
-  border-top-right-radius: 0rem;
-  border-bottom-right-radius: 0rem;
+  
+ 
   box-shadow: var(--profileShadow);
   display: flex;
   flex-direction: column;
@@ -209,9 +208,7 @@ body {
   color: var(--textColor);
   box-shadow: var(--profileShadow);
   z-index: 100;
-  border-radius: 1rem;
-  border-top-left-radius: 0rem;
-  border-bottom-left-radius: 0rem;
+  
   position: relative;
   padding: 5%;
 }
@@ -339,14 +336,16 @@ body {
   /* grid-template-columns: repeat(2, 40%); */
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 0.5rem;
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom:3rem;
   background-color: var(--cardColor);
   box-shadow: var(--profileShadow);
   border-radius: 1rem;
-  margin: 1rem;
+  
 }
 .summary:hover {
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
   box-shadow: 0px 10px 17px 2px rgba(74, 68, 68, 0.25);
   top: -4px;
   border: 1px solid #cccccc;
@@ -355,11 +354,12 @@ body {
   margin-top: 3rem;
 }
 
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 800px) {
   .content {
     display: grid;
     grid-template-columns: 99%;
-    gap: 2rem;
+    gap: 1rem;
     overflow: auto;
     padding: 5%;
     font-size: 1.5rem;
@@ -370,6 +370,8 @@ body {
   }
   .form-container {
     border-radius: 1rem;
+    gap:0rem;
+    
   }
   /* .info-container{
     margin-top: 2rem;
@@ -380,9 +382,7 @@ body {
   .city {
     font-size: 1.25rem;
   }
-  .search h2 {
-    font-size: 1.75rem;
-  }
+  
   .search-bar {
     display: flex;
     width: 100%;
@@ -410,13 +410,12 @@ body {
   }
   h1 {
     font-size: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .summary {
-    display: grid;
-    grid-template-columns: repeat(2, 49%);
-    align-self: center;
-    gap: 1rem;
-  }
+  
   .search-bar > input {
     padding: 7%;
     
@@ -426,35 +425,21 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .logo {
-    font-size: 1.25rem;
-  }
-  .city {
-    font-size: 1rem;
-  }
-  h2 {
-    font-size: 1.1rem;
-  }
-  .centerTextOnMobile {
-    text-align: center;
-  }
-}
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 600px) {
+  
   .content {
     display: grid;
     grid-template-columns: 99%;
-    gap: 2rem;
+    gap: 1rem;
     overflow: auto;
     padding: 5%;
-  }
-  .content::-webkit-scrollbar {
-    width: 0 !important;
-    display: none;
+    font-size: 1.5rem;
   }
   .form-container {
     border-radius: 1rem;
+    gap:2rem;
   }
   /* .info-container{
     margin-top: 2rem;
