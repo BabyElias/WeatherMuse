@@ -253,7 +253,7 @@ function App() {
                         alt="a person thinking about what place to find"
                       />
                       <p style={{ padding: "20px" }}>
-                        Don't worry, if you don't know what search, try with:
+                        Don't worry, if you don't know what to search, try with:
                         Canada, New York or maybe Tatooine.
                       </p>
                     </>
